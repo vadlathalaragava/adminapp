@@ -1,0 +1,27 @@
+ 
+   
+  <table>
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>password</th>
+        <th>address</th>
+        <th>email</th>
+        <th>phone</th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customers">
+        <th>{{customer.id}}</th>
+        <th>{{customer.name}}</th>
+        <th>{{customer.password}}</th>
+        <th>{{customer.address}}</th>
+        <th>{{customer.email}}</th>
+        <th>{{customer.phone}}</th> 
+      </tr> 
+    </tbody>
+    
+  </table>
+ 
+ 
